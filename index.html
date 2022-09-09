@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Recipe App</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <script
+      src="https://kit.fontawesome.com/1017d1979f.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./script.js" defer></script>
+  </head>
+  <body>
+    <div class="mobile-container">
+      <header class="header">
+        <form class="search-form">
+          <input type="text" id="search-term" />
+          <button id="search">
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </button>
+        </form>
+      </header>
+
+      <div class="fav-container">
+        <h3>Favorite Meals</h3>
+        <div class="fav-meals">
+          <ul id="favourite">
+            <!-- <li>
+              <img
+                src="https://www.themealdb.com/images/ingredients/Lime.png"
+                alt=""
+              /><span>Lime</span>
+            </li>
+            <li>
+              <img
+                src="https:\/\/www.themealdb.com\/images\/media\/meals\/ytpstt1511814614.jpg"
+                alt=""
+              /><span>Lasagna</span>
+            </li>
+            <li>
+              <img
+                src="https:\/\/www.themealdb.com\/images\/media\/meals\/yrstur1511816601.jpg"
+                alt=""
+              /><span>Cake</span>
+            </li>
+            <li>
+              <img
+                src="https:\/\/www.themealdb.com\/images\/media\/meals\/xxtsvx1511814083.jpg"
+                alt=""
+              /><span>Pacha</span>
+            </li> -->
+          </ul>
+        </div>
+      </div>
+
+      <div class="lower-block">
+        <!-- <div class="meal">
+          <div class="random-recipe">
+            <h3 class="random">Random Recipe</h3>
+            <img
+              src="https:\/\/www.themealdb.com\/images\/media\/meals\/1550441882.jpg"
+              alt=""
+            />
+          </div>
+  
+          <footer class="footer">
+            <h3>Veggie Veggies</h3>
+            <button class="heart-btn">
+              <i class="fas fa-heart"></i>
+            </button>
+            <i class="fa-regular fa-heart"></i>
+          </footer>
+        </div> -->
+      </div>
+
+      <div class="popup-container hidden">
+        <div class="popup-info">
+          <button id="btn-close-popup" class="close-btn">
+            <i class="fa-solid fa-x close-popup"></i>
+          </button>
+          <div class="meal-info">
+            <!-- <h2>Meal title</h2>
+            <img
+              src="https:\/\/www.themealdb.com\/images\/media\/meals\/1550441882.jpg"
+              alt=""
+            />
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus
+              esse et quas illum aperiam voluptas nostrum ex obcaecati sit
+              eligendi.
+            </p>
+            <ul>
+              <li>ing 1 / measure</li>
+              <li>ing 2 / measure</li>
+              <li>ing 3 / measure</li>
+            </ul> -->
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
